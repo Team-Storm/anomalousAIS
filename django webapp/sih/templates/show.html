@@ -1,0 +1,11 @@
+<html>
+   <body>
+   {% load static %}
+      {% if saved %}
+         <img src={% static 'AIS_lat_goodbad.png' %}><br><b>AIS_LATITUDES GOOD VS BAD BEHAVIOUR</b><hr>
+		 <img src={% static 'AIS_long_goodbad.png' %}><br><b>AIS_LONGITUDES GOOD VS BAD BEHAVIOUR</b>
+		 
+      {% endif %}
+      
+   </body>
+</html>
